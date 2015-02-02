@@ -46,6 +46,7 @@ Here is the [demo website]. All the details you will need to understand how Glas
 1.0
 
 
+
 [demo website]:http://patrickroux.fr/work/responsive/
 [Part 1 : Navigation]:http://patrickroux.fr/web-internet/un-site-one-page-responsive-walkthrough-partie1-4161
 [Part 2 : Overall color scheme by section]:http://patrickroux.fr/web-internet/un-site-one-page-responsive-part-2-4200
