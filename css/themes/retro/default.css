@@ -1,0 +1,324 @@
+/******************************************************
+	
+	Glassero Par Patrick Roux : http://www.kicoe.net
+	One Page Responsive HTML Template
+	
+	Theme : Retro
+	
+	Sections of stylesheet:
+		$INDEX1 - GENERAL
+		$INDEX2 - HEADER COMMON
+		$INDEX3 - MENU COMMON
+		$INDEX4 - HEADER STANDARD
+		$INDEX5 - HEADER STANDARD REDUIT
+		$INDEX6 - HEADER MOBILE
+		$INDEX7 - MAIN CONTENT
+		$INDEX8 - PORTFOLIO
+		$INDEX9 - THE TEAM
+		$INDEX10 - CONTACT
+		$INDEX11 - MEDIA QUERIES : TABLETS
+		$INDEX12 - MEDIA QUERIES : SMARTPHONES
+		
+******************************************************/	
+
+
+
+
+/******************************************************
+
+	$INDEX1 - GENERAL
+	
+******************************************************/	
+
+
+
+body {
+    color: #F5D699;
+}
+
+
+header{
+	background: #BB2A09;
+}
+
+::selection{
+	background: #BB2A09;
+}
+::-moz-selection{
+	background: #BB2A09;
+}
+::-webkit-selection{
+	background: #BB2A09;
+}
+
+a{
+	color: #F5E8C8;
+}
+
+a:hover {
+	color: #000;
+}
+
+h1, h2, h3{
+	color: #F5D699;
+	border-color: #F5D699;
+}
+
+hr{
+	border-color: #F5D699;
+}
+
+
+
+/******************************************************
+
+	$INDEX3 - MENU COMMON
+	
+******************************************************/	
+
+
+
+
+nav a{
+	color: #F5E8C8;
+}
+
+nav a.current, nav a:hover{
+	background: #F5E8C8;
+	color: #BB2A09;
+}
+
+
+
+/******************************************************
+
+	$INDEX5 - HEADER STANDARD REDUIT
+	
+******************************************************/	
+
+
+
+ 
+.headerstandard.headerstandard-shrink h1 {
+	background: transparent url('images/icone.png') center left no-repeat;
+	text-indent: 60px;
+}
+
+
+
+
+/******************************************************
+
+	$INDEX6 - HEADER MOBILE
+	
+******************************************************/	
+
+
+
+
+
+header.headermobile button {
+	background: transparent url('images/nav-icon.png') center center no-repeat;
+}
+
+		
+		
+		
+	
+/******************************************************
+
+	$INDEX7 - MAIN CONTENT
+	
+******************************************************/	
+
+
+
+.section1-visible{ background: #424E5D; }
+.section2-visible{ background: #6C4846; }
+.section3-visible{ background: #76302B; }
+.section4-visible{ background: #704935; }
+.section5-visible{ background: #072B32; }
+
+
+#main .home h1{
+	background: transparent url('images/logo.png') center center no-repeat;
+}
+
+.quote{
+	background: rgba(7, 43, 50, 0.6) url('images/quote.png') 15px 15px no-repeat;
+	padding: 20px 20px 20px 80px;
+}	
+
+.scroll {
+    background: url("images/scroll.png") no-repeat scroll center top transparent;
+}
+.scroll:hover{
+	background: url("images/scroll.png") bottom center no-repeat;
+}
+
+.progress {
+	background: #F5E8C8;
+}
+
+.progress .bar {
+    background: #BB2A09;
+}
+
+.scroll {
+    background: url("images/scroll.png") no-repeat scroll center top transparent;
+}
+
+.scroll:hover{
+	background: url("images/scroll.png") bottom center no-repeat;
+}
+
+
+
+
+/******************************************************
+
+	$INDEX8 - PORTFOLIO
+	
+******************************************************/	
+
+
+
+
+.grid figcaption {
+	background: #BB2A09;
+	color: #F5E8C8;	
+}
+
+.grid figcaption a {
+	background: #F5E8C8;
+	color: #BB2A09;
+}
+
+.grid figcaption h3 {
+	color: #fff;
+}
+
+
+
+/******************************************************
+
+	$INDEX9 - THE TEAM
+	
+******************************************************/	
+
+
+#team li{
+	background: #BB2A09;
+}
+
+#team li figcaption.contactme{
+	background: #072B32;
+}
+
+#team li figcaption.contactme span:hover,
+#team li:hover figcaption.contactme span:hover{
+	background-color: #BB2A09;
+}
+
+#team li figcaption.member{
+	background: #072B32;
+}
+
+#team li figcaption.contactme span.facebook{
+	background: url('images/facebook.png') center center no-repeat;
+}
+#team li figcaption.contactme span.twitter{
+	background: url('images/twitter.png') center center no-repeat;
+}
+
+
+
+/******************************************************
+
+	$INDEX10 - CONTACT
+	
+******************************************************/	
+
+
+
+
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+    background:#FFF;
+	box-shadow:inset 0 1px 2px #F5D699, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #F5D699, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #F5D699, 0 1px 0 #FFF;
+}
+#contact-form button[type="submit"] {
+    background:#BB2A09;
+    color:#F5D699;
+}
+#contact-form button[type="submit"]:hover {
+    background:#F5D699;
+    color:#BB2A09;
+}
+
+
+
+
+
+/******************************************************
+
+	$INDEX10 - MEDIA QUERIES : TABLETS
+	
+******************************************************/	
+
+
+
+
+/* TABLETS */
+@media screen and (max-width: 1020px ) {
+     
+  
+		
+	#main .home h1{
+		background: transparent url('images/logo-medium.png') center center no-repeat;
+	}
+	
+
+}
+
+
+
+
+
+/******************************************************
+
+	$INDEX11 - MEDIA QUERIES : SMARTPHONES
+	
+******************************************************/	
+
+
+
+
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+
+     
+  
+		
+	#main .home h1{
+		background: transparent url('images/logo-small.png') center center no-repeat;
+	}
+	
+	.scroll {
+		background-image: url('images/scroll-small.png');
+	} 
+	.scroll:hover {
+		background-image: url('images/scroll-small.png');
+	}
+
+
+}
+
